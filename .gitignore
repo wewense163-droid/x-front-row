@@ -1,0 +1,13 @@
+# 运行时状态（去重记录），每台机器各一份，不进仓库
+state.json
+state.json.tmp
+
+# 本地实际配置（从 config.example.json 复制后改），可能包含个人盯帖名单
+config.json
+
+# 告警输出
+alerts.md
+
+# Python 缓存
+__pycache__/
+*.pyc
